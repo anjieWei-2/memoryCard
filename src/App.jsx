@@ -83,7 +83,8 @@ function App() {
         if (bestScore<20){
           setBestScore(20)
         }
-        setCurrentScore(0)      
+        setCurrentScore(0)
+        setClickedCards([])      
       }
     }
   }
