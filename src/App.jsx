@@ -80,8 +80,8 @@ function App() {
 
       if((currentScore+1)==20){
         setWin(true)
-        if (currentScore>bestScore){
-          setBestScore(currentScore)
+        if (bestScore<20){
+          setBestScore(20)
         }
         setCurrentScore(0)      
       }
